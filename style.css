@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body{
+    background: #f3f0f1;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 65px;
+    background: #f3f0f1;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 25px;
+}
+.button {
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button {
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #008fc7;
+}
+.button:active{
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+    color: #00ccff;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+.advantages{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mess{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mess_text{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
